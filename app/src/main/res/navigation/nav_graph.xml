@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/battleFragment"
+        android:name="com.example.week3.battleFragment"
+        android:label="fragment_battle"
+        tools:layout="@layout/fragment_battle" >
+        <action
+            android:id="@+id/action_battleFragment_to_deckFragment"
+            app:destination="@id/deckFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/enter_from_left"
+            app:popEnterAnim="@anim/exit_to_right"
+            app:popExitAnim="@anim/exit_to_left" />
+        <action
+            android:id="@+id/action_battleFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/enter_from_left"
+            app:popEnterAnim="@anim/exit_to_left"
+            app:popExitAnim="@anim/exit_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/deckFragment"
+        android:name="com.example.week3.deckFragment"
+        android:label="fragment_deck"
+        tools:layout="@layout/fragment_deck" >
+        <action
+            android:id="@+id/action_deckFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_deckFragment_to_battleFragment"
+            app:destination="@id/battleFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/enter_from_left"
+            app:popEnterAnim="@anim/exit_to_right"
+            app:popExitAnim="@anim/exit_to_left" />
+        <action
+            android:id="@+id/action_deckFragment_to_profileFragment2"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/enter_from_left"
+            app:popEnterAnim="@anim/exit_to_right"
+            app:popExitAnim="@anim/exit_to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.week3.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_SetAvatarFragment"
+            app:destination="@id/SetAvatarFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_deckFragment"
+            app:destination="@id/deckFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_SetAvatarFragment2"
+            app:destination="@id/SetAvatarFragment"
+            app:enterAnim="@anim/slide_in_top"
+            app:exitAnim="@anim/slide_in_botttom"
+            app:popEnterAnim="@anim/slide_out_top"
+            app:popExitAnim="@anim/slide_out_bottom" />
+        <action
+            android:id="@+id/action_profileFragment_to_deckFragment2"
+            app:destination="@id/deckFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_deckFragment3"
+            app:destination="@id/deckFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/enter_from_left"
+            app:popEnterAnim="@anim/exit_to_right"
+            app:popExitAnim="@anim/exit_to_left" />
+        <action
+            android:id="@+id/action_profileFragment_to_battleFragment"
+            app:destination="@id/battleFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/enter_from_left"
+            app:popEnterAnim="@anim/exit_to_right"
+            app:popExitAnim="@anim/exit_to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.week3.splashFragment"
+        android:label="splashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_battleFragment"
+            app:destination="@id/battleFragment"
+            app:enterAnim="@anim/enter_from_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/SetAvatarFragment"
+        android:name="com.example.week3.testresult.SetAvatarFragment"
+        android:label="SetAvatarFragment" >
+        <action
+            android:id="@+id/action_SetAvatarFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@anim/slide_in_botttom"
+            app:exitAnim="@anim/slide_in_top"
+            app:popEnterAnim="@anim/slide_out_bottom"
+            app:popExitAnim="@anim/slide_out_top" />
+    </fragment>
+</navigation>

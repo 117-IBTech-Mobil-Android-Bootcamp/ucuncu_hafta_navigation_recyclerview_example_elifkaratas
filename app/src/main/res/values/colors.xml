@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="background_color">#FFFBFB</color>
+    <color name="kelime_testi_color">#484848</color>
+    <color name="progress_bar_color1">#FF6C81</color>
+    <color name="progress_bar_color2">#E1B4BA</color>
+    <color name="select_avatar_background">#FFF7EF</color>
+    <color name="passive_color">#999999</color>
+    <color name="active_color">#FF6C81</color>
+    <color name="gradient_color1">#FECB6E</color>
+    <color name="gradient_color2">#FFFBFB</color>
+    <color name="decklerim_background">#FFE3E3</color>
+    <color name="basari">#00A597</color>
+
+</resources>

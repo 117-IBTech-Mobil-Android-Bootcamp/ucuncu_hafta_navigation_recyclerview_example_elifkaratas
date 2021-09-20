@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Week3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="battle">Battle</string>
+    <string name="decklerim">Decklerim</string>
+    <string name="profile">Profile</string>
+    <string name="john_doe">John Doe</string>
+    <string name="basari">Başarı</string>
+    <string name="bizi_takip_edin">Bizi takip edin</string>
+    <string name="iki_oyuncu">İki oyuncu</string>
+    <string name="tek_oyuncu">Tek oyuncu</string>
+    <string name="simdi_oyna">Şimdi oyna</string>
+    <string name="empty_state_title">Empty State Title</string>
+    <string name="empty_state_subword">empty state subword</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+</resources>
